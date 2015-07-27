@@ -12,7 +12,7 @@ angular.module('appTestApp')
       }
       service.Login = function (username, password, callback) {
 
-        /* Dummy authentication for testing, uses $timeout to simulate api call
+        /* Just a service for authentication. I have all user data here.
          ----------------------------------------------*/
         var response = { success: testCreds(username,password)};
           if(!response.success) {
