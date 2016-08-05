@@ -4,10 +4,13 @@
     <file url="file://$PROJECT_DIR$/README.md" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/app.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/authentication/authentication.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/bootstrapKarneWaliJS.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/controllers/home.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/controllers/main.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/styles/main.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/home.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/main.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app1/scripts/authentication/authentication.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app2/scripts/controllers/home.js" charset="UTF-8" />
   </component>
 </project>

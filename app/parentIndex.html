@@ -13,6 +13,8 @@
   <!-- build:css(.tmp) styles/main.css -->
   <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="../app1/styles/main.css">
+  <link rel="stylesheet" href="../app2/styles/main.css">
   <!-- endbuild -->
 </head>
 <body>
@@ -28,6 +30,20 @@
 </div>
 <div  id="appHere">
   First App here
+  <div class="container">
+    <ng-view></ng-view>
+    <!--<div ng-include="'views/main.html'" ng-controller="MainCtrl"></div>-->
+  </div>
+</div>
+<div  id="appHere1">
+  Second App here
+  <div class="container">
+    <ng-view></ng-view>
+    <!--<div ng-include="'views/main.html'" ng-controller="MainCtrl"></div>-->
+  </div>
+</div>
+<div  id="appHere2">
+  Third App here
   <div class="container">
     <ng-view></ng-view>
     <!--<div ng-include="'views/main.html'" ng-controller="MainCtrl"></div>-->
@@ -51,6 +67,16 @@
 <!-- endbuild -->
 
 <!-- build:js({.tmp,app}) scripts/scripts.js -->
+<script src="../app1/scripts/app.js"></script>
+<script src="../app1/scripts/controllers/main.js"></script>
+<script src="../app1/scripts/controllers/home.js"></script>
+<script src="../app1/scripts/authentication/authentication.js"></script>
+<script src="../app1/scripts/bootstrapKarneWaliJS.js"></script>
+<script src="../app2/scripts/app.js"></script>
+<script src="../app2/scripts/controllers/main.js"></script>
+<script src="../app2/scripts/controllers/home.js"></script>
+<script src="../app2/scripts/authentication/authentication.js"></script>
+<script src="../app2/scripts/bootstrapKarneWaliJS.js"></script>
 <script src="scripts/app.js"></script>
 <script src="scripts/controllers/main.js"></script>
 <script src="scripts/controllers/home.js"></script>
